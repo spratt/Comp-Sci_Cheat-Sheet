@@ -21,3 +21,12 @@ p {
 	line-height: 1.3em;
     margin-bottom: 2em;
 }
+a {
+	color: darkblue;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}

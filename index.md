@@ -1,22 +1,35 @@
-## Abstract Data Types
+By [Simon Pratt](http://pr4tt.com)
 
-An ADT is a set of operations on a data structure that provide an
-interface for manipulating the data for use in algorithms.
+## [Data Structures](http://opendatastructures.org)
 
-### List
+### [Array](http://opendatastructures.org/ods-java/2_Array_Based_Lists.html)
 
-A list provides access to an ordered set of elements.
+A fixed number of sequential memory locations, into which data is
+inserted sequentially beginning with the lowest or highest memory
+address.  A counter keeps track of how many of the memory locations
+contain data.  
 
-### Stack, Queue, Deque
+This structure provides constant-time access to any element and
+constant-time insertion or removal at the end, using constant extra
+space.
 
-Stacks, queues, and deques are lists in which the first and last
-elements (called the "ends") are especially easy to add or remove.  A
-stack is a structure which supports insertion and removal from one end
-in constant time.  A queue is a structure which supports insertion
-from one end, and removal from the other end in constant time.
+### [Linked List](http://opendatastructures.org/ods-java/3_Linked_Lists.html)
 
-### Dictonary
+A pointer to a series of nodes, each of which contain a datum and a
+pointer to the next node in the list.
 
-## Data Structures
+![Linked List](http://opendatastructures.org/ods-java/img500.png)
 
-## Algorithms
+This structure provides constant removal from the start, and a pointer
+to the tail is a simple optimization which allows constant-time
+insertion at the end.
+
+## [Algorithms](http://compgeom.cs.uiuc.edu/~jeffe/teaching/algorithms/)
+
+TODO
+
+## Attribution
+
+Many of the images, including the image of the linked list, are from
+[Pat Morin's excellent data structures
+book](http://opendatastructures.org/).
