@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Computer Science Cheat Sheet</title>
+	<script src="lib/markdown.js"></script>
+	<script src="lib/lib.js"></script>
+	<script src="lib/main.js"></script>
+    <link rel="stylesheet" href="lib/style.css" />
+  </head>
   <body>
-    <textarea id="text-input" oninput="this.editor.update()"
-              rows="6" cols="60">Type **Markdown** here.</textarea>
-    <div id="preview"> </div>
-    <script src="lib/markdown.js"></script>
-    <script>
-      function Editor(input, preview) {
-        this.update = function () {
-          preview.innerHTML = markdown.toHTML(input.value);
-        };
-        input.editor = this;
-        this.update();
-      }
-      var $ = function (id) { return document.getElementById(id); };
-      new Editor($("text-input"), $("preview"));
-    </script>
+    <main>
+      <h1 id="title">Computer Science Cheat Sheet</h1>
+      <article id="content"></article>
+    </main>
   </body>
 </html>

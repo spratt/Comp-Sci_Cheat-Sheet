@@ -1,0 +1,23 @@
+body {
+	color: #130f30;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffffee;
+}
+main {
+	max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+	font-size: 1.2rem;
+}
+h3 {
+	font-size: 1.0rem;
+}
+p {
+	line-height: 1.3em;
+    margin-bottom: 2em;
+}
