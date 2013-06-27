@@ -24,7 +24,27 @@ This structure provides constant removal from the start, and a pointer
 to the tail is a simple optimization which allows constant-time
 insertion at the end.
 
+### Binary Tree
+
+A binary tree stores elements in a well-defined ordering.  Each node
+of the tree stores an element along with pointers to left and right
+children.  The left child and all its children contain elements which
+precede or are equal to the element at the node.  Similarly for the
+right child and all its children.
+
+A perfectly balanced binary tree has logarithmic query time.
+
+### Skiplist
+
+TODO
+
 ## [Algorithms](http://compgeom.cs.uiuc.edu/~jeffe/teaching/algorithms/)
+
+### Binary Search
+
+TODO
+
+### Dijkstra's Algorithm
 
 TODO
 
