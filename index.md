@@ -42,7 +42,11 @@ TODO
 
 ### Binary Search
 
-TODO
+Given a sorted array and a query item, comparing the middle element to
+the query item determines whether the query element belongs in the
+first or second halves of the array.  This means each check eliminates
+half of the search space.  Recursive application of this fact takes
+logarithmic time to find the position of the query item in the array.
 
 ### Dijkstra's Algorithm
 
